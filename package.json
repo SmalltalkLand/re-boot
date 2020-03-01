@@ -1,0 +1,26 @@
+{
+  "name": "re-boot",
+  "version": "1.0.0",
+  "description": "Functional Bootstrapping",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SmalltalkLand/re-boot.git"
+  },
+  "keywords": [
+    "boot",
+    "functional"
+  ],
+  "author": "Graham",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SmalltalkLand/re-boot/issues"
+  },
+  "homepage": "https://github.com/SmalltalkLand/re-boot#readme",
+  "devDependencies": {
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11"
+  }
+}
