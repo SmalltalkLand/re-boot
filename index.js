@@ -41,7 +41,7 @@ let CONCAT = l1 => l2 => COND(NOT(l1(CAR)))(x => CONS(l1(CAR))(CONCAT(l1(CDR))(l
 
 let CHAR = i => f => f(i);
 
-
+let RELEASE = cb => input => cb(MULTIPLY(THREE)(THREE)(l => ADDL(l)(input()))(CONS(FALSE)(FALSE)))
 
 export * from './drivers.js'
 export {
@@ -50,5 +50,6 @@ export {
     ,ADD1,ADD,MULTIPLY,COND,PRED,
     FIRST,SECOND,PAIR,SUB,
     Y,CONS,CDR,CAR,AT,ADDL,ITER,MAP,REDUCE,CONCAT,
-CHAR
+CHAR,
+RELEASE
 }
